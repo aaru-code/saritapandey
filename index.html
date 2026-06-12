@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Sarita Pandey — Certified LIC Insurance Agent. Expert in Life Insurance, Health Plans, Pension, and Investment solutions. Serving clients across India with trust and dedication." />
+    <title>Sarita Pandey | LIC Insurance Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ═══ CURSOR GLOW ═══ -->
+    <div id="cursor-glow"></div>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">SP<span class="dot">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#plans" class="nav-link">Plans</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-nav" id="nav-cta">Get a Quote</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="home" class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>🛡️ Certified LIC Agent &nbsp;•&nbsp; Since 2014</span>
+            </div>
+            <h1 class="hero-title">
+                Sarita <span class="gradient-text">Pandey</span>
+            </h1>
+            <div class="hero-typewriter">
+                <span id="typewriter"></span><span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-desc">
+                Your trusted LIC partner for financial security, smart investment, and a worry-free future. I help
+                families build wealth, protect lives, and plan for tomorrow — today.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" id="hero-quote-btn">📞 Get Free Consultation</a>
+                <a href="https://licindia.in/hi/web/guest/home" class="btn btn-outline" id="hero-services-btn" target="_blank" rel="noopener">Explore Services</a>
+            </div>
+            <div class="trust-badges">
+                <div class="trust-item">
+                    <span class="trust-icon">✅</span>
+                    <span>IRDAI Certified</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🏆</span>
+                    <span>Top Performer 2023</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🤝</span>
+                    <span>10+ Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="blob-container">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+                <div class="avatar-ring">
+                    <div class="avatar">
+                        <div class="avatar-inner">
+                            <img src="assets/sarita-pandey-profile.jpeg"
+                                alt="Sarita Pandey, LIC Insurance Agent">
+                        </div>
+                    </div>
+                    <div class="orbit orbit-1">
+                        <div class="orbit-dot" style="background:#f59e0b;box-shadow:0 0 10px #f59e0b"></div>
+                    </div>
+                    <div class="orbit orbit-2">
+                        <div class="orbit-dot" style="background:#10b981;box-shadow:0 0 10px #10b981"></div>
+                    </div>
+                </div>
+                <!-- Floating Info Cards -->
+                <div class="float-card float-card-1">
+                    <span class="fc-icon">📋</span>
+                    <div>
+                        <strong>500+</strong>
+                        <span>Clients Served</span>
+                    </div>
+                </div>
+                <div class="float-card float-card-2">
+                    <span class="fc-icon">💰</span>
+                    <div>
+                        <strong>₹50Cr+</strong>
+                        <span>Sum Assured</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Know Your Agent</p>
+                <h2 class="section-title">About <span class="gradient-text">Sarita Pandey</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrap reveal">
+                    <div class="profile-card">
+                        <div class="profile-card-top">
+                            <div class="profile-avatar-large">
+                                <img src="assets/sarita-pandey-profile.jpeg"
+                                    alt="Sarita Pandey">
+                            </div>
+                            <div class="profile-lic-badge">LIC</div>
+                        </div>
+                        <div class="profile-card-body">
+                            <h3>Sarita Pandey</h3>
+                            <p class="profile-role">Senior LIC Insurance Agent</p>
+                            <div class="profile-meta">
+                                <div class="pm-item">
+                                    <span class="pm-label">Agent Code</span>
+                                    <span class="pm-val">LIC-2014-SP007</span>
+                                </div>
+                                <div class="pm-item">
+                                    <span class="pm-label">Branch</span>
+                                    <span class="pm-val">Sathiaon, Azamgarh, Uttar Pradesh 276406</span>
+                                </div>
+                                <div class="pm-item">
+                                    <span class="pm-label">Specialisation</span>
+                                    <span class="pm-val">Life & Health Insurance</span>
+                                </div>
+                                <div class="pm-item">
+                                    <span class="pm-label">Languages</span>
+                                    <span class="pm-val">Hindi, English</span>
+                                </div>
+                            </div>
+                            <div class="profile-awards">
+                                <span class="award-badge">🥇 MDRTQualifier</span>
+                                <span class="award-badge">⭐ Star Agent</span>
+                                <span class="award-badge">🏆 Top 1% 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>Securing Futures with <span class="gradient-text">Trust & Expertise</span></h3>
+                    <p>With over <strong>10 years of experience</strong> as a dedicated LIC agent, I, Sarita Pandey,
+                        have helped hundreds of families across Uttar Pradesh secure their financial futures through the
+                        right insurance and investment plans.</p>
+                    <p>My mission is simple — to understand your unique needs and recommend the most suitable LIC policy
+                        that protects your family, grows your savings, and ensures peace of mind at every life stage.
+                    </p>
+                    <p>I believe in building <strong>long-term relationships</strong>, not just selling policies. From
+                        choosing the right plan to assisting with claims — I'm with you every step of the way.</p>
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="1200">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Policies Sold</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Exp.</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+                            <span class="stat-label">Claim Settled</span>
+                        </div>
+                    </div>
+                    <a href="tel:+917007629909" class="btn btn-primary" id="about-call-btn">📞 Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ SERVICES / EXPERTISE ═══ -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">What I offer</p>
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(245,158,11,0.15);border-color:rgba(245,158,11,0.3)">
+                        <span>🛡️</span>
+                    </div>
+                    <h3>Life Insurance</h3>
+                    <p>Comprehensive term and whole life policies that protect your family's financial future in case of
+                        any eventuality. Flexible premiums, high coverage.</p>
+                    <ul class="service-list">
+                        <li>✔ Term Insurance Plans</li>
+                        <li>✔ Endowment Plans</li>
+                        <li>✔ Whole Life Plans</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3)">
+                        <span>❤️</span>
+                    </div>
+                    <h3>Health Insurance</h3>
+                    <p>Safeguard yourself and your family from rising medical costs with LIC's comprehensive health
+                        coverage plans including critical illness riders.</p>
+                    <ul class="service-list">
+                        <li>✔ Individual Health Plans</li>
+                        <li>✔ Family Floater Policies</li>
+                        <li>✔ Critical Illness Rider</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(99,102,241,0.15);border-color:rgba(99,102,241,0.3)">
+                        <span>📈</span>
+                    </div>
+                    <h3>Investment & ULIP</h3>
+                    <p>Grow your wealth alongside life coverage with Unit Linked Insurance Plans (ULIPs). Market-linked
+                        returns with insurance benefits in one plan.</p>
+                    <ul class="service-list">
+                        <li>✔ ULIP Plans</li>
+                        <li>✔ Money-Back Plans</li>
+                        <li>✔ Wealth Plus Plans</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3)">
+                        <span>🏖️</span>
+                    </div>
+                    <h3>Pension & Retirement</h3>
+                    <p>Plan a stress-free retirement with LIC's annuity and pension plans that guarantee regular income
+                        even after you stop working.</p>
+                    <ul class="service-list">
+                        <li>✔ Jeevan Shanti</li>
+                        <li>✔ New Jeevan Nidhi</li>
+                        <li>✔ Pradhan Mantri Vaya Plan</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(6,182,212,0.15);border-color:rgba(6,182,212,0.3)">
+                        <span>👶</span>
+                    </div>
+                    <h3>Child Plans</h3>
+                    <p>Secure your child's dreams — education, marriage, and career — with LIC's special child plans
+                        designed to deliver funds when needed most.</p>
+                    <ul class="service-list">
+                        <li>✔ Children's Money-Back</li>
+                        <li>✔ Jeevan Tarun</li>
+                        <li>✔ Bima Jyoti for Children</li>
+                    </ul>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap"
+                        style="background:rgba(245,158,11,0.15);border-color:rgba(245,158,11,0.3)">
+                        <span>💼</span>
+                    </div>
+                    <h3>Tax Saving Plans</h3>
+                    <p>Save tax under Section 80C and 10(10D) of the Income Tax Act with LIC's specially designed
+                        savings and insurance products.</p>
+                    <ul class="service-list">
+                        <li>✔ Section 80C Benefits</li>
+                        <li>✔ Tax-Free Maturity</li>
+                        <li>✔ 80D Health Deductions</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ POPULAR PLANS ═══ -->
+    <section id="plans" class="section plans">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Best Sellers</p>
+                <h2 class="section-title">Popular LIC <span class="gradient-text">Plans</span></h2>
+                <a href="https://licindia.in/hi/web/guest/home" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:1rem;">Explore LIC Plans</a>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Plans</button>
+                <button class="filter-btn" data-filter="life">Life</button>
+                <button class="filter-btn" data-filter="savings">Savings</button>
+                <button class="filter-btn" data-filter="pension">Pension</button>
+            </div>
+            <div class="plans-grid">
+
+                <div class="plan-card reveal" data-category="life">
+                    <div class="plan-glow"></div>
+                    <div class="plan-header">
+                        <div class="plan-icon">🛡️</div>
+                        <span class="plan-type-badge life">Life</span>
+                    </div>
+                    <h3>LIC Tech Term</h3>
+                    <p class="plan-desc">Pure term plan with high life cover at low premiums. Available online, ideal
+                        for salaried individuals seeking strong family protection.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Min. Cover</span><strong>₹50 Lakh</strong></div>
+                        <div class="ph-item"><span>Policy Term</span><strong>10–40 Yrs</strong></div>
+                        <div class="ph-item"><span>Entry Age</span><strong>18–65 Yrs</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+                <div class="plan-card reveal" data-category="savings">
+                    <div class="plan-glow"></div>
+                    <div class="plan-header">
+                        <div class="plan-icon">💰</div>
+                        <span class="plan-type-badge savings">Savings</span>
+                    </div>
+                    <h3>LIC Jeevan Anand</h3>
+                    <p class="plan-desc">Non-linked participating endowment plan that combines savings with life cover.
+                        Bonus + guaranteed maturity benefits.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Policy Term</span><strong>15–35 Yrs</strong></div>
+                        <div class="ph-item"><span>Bonus</span><strong>Simple + Final</strong></div>
+                        <div class="ph-item"><span>Entry Age</span><strong>18–50 Yrs</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+                <div class="plan-card reveal featured-plan" data-category="savings">
+                    <div class="plan-glow"></div>
+                    <div class="featured-ribbon">⭐ Most Popular</div>
+                    <div class="plan-header">
+                        <div class="plan-icon">🌟</div>
+                        <span class="plan-type-badge savings">Savings</span>
+                    </div>
+                    <h3>LIC New Jeevan Labh</h3>
+                    <p class="plan-desc">Limited premium paying endowment plan. Pay for fewer years, enjoy coverage for
+                        longer with guaranteed additions and bonuses.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Pay Term</span><strong>10–16 Yrs</strong></div>
+                        <div class="ph-item"><span>Cover Term</span><strong>16–25 Yrs</strong></div>
+                        <div class="ph-item"><span>Entry Age</span><strong>8–59 Yrs</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+                <div class="plan-card reveal" data-category="pension">
+                    <div class="plan-glow"></div>
+                    <div class="plan-header">
+                        <div class="plan-icon">🏖️</div>
+                        <span class="plan-type-badge pension">Pension</span>
+                    </div>
+                    <h3>LIC Jeevan Shanti</h3>
+                    <p class="plan-desc">Immediate annuity plan offering guaranteed lifelong income. Choose from 10
+                        different annuity options to match your retirement needs.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Annuity</span><strong>Immediate</strong></div>
+                        <div class="ph-item"><span>Min. Purchase</span><strong>₹1.5 Lakh</strong></div>
+                        <div class="ph-item"><span>Entry Age</span><strong>30–79 Yrs</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+                <div class="plan-card reveal" data-category="life">
+                    <div class="plan-glow"></div>
+                    <div class="plan-header">
+                        <div class="plan-icon">👶</div>
+                        <span class="plan-type-badge life">Child</span>
+                    </div>
+                    <h3>LIC Jeevan Tarun</h3>
+                    <p class="plan-desc">Children's money-back plan with survival benefits payable from age 20–24 to
+                        fund education & marriage goals of your child.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Entry Age</span><strong>0–12 Yrs</strong></div>
+                        <div class="ph-item"><span>Payment</span><strong>Money-Back</strong></div>
+                        <div class="ph-item"><span>Tax</span><strong>80C Benefit</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+                <div class="plan-card reveal" data-category="savings">
+                    <div class="plan-glow"></div>
+                    <div class="plan-header">
+                        <div class="plan-icon">📈</div>
+                        <span class="plan-type-badge savings">ULIP</span>
+                    </div>
+                    <h3>LIC SIIP</h3>
+                    <p class="plan-desc">Systematic Investment Insurance Plan — a ULIP offering market-linked growth
+                        plus life cover. Perfect for long-term wealth creation.</p>
+                    <div class="plan-highlights">
+                        <div class="ph-item"><span>Policy Term</span><strong>10–25 Yrs</strong></div>
+                        <div class="ph-item"><span>Min. Premium</span><strong>₹40,000/yr</strong></div>
+                        <div class="ph-item"><span>Entry Age</span><strong>18–50 Yrs</strong></div>
+                    </div>
+                    <a href="https://licindia.in/hi/web/guest/home" class="btn btn-plan" target="_blank" rel="noopener">Enquire Now →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS ═══ -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Client Stories</p>
+                <h2 class="section-title">What My Clients <span class="gradient-text">Say</span></h2>
+            </div>
+            <div class="testimonials-track" id="testimonials-track">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Sarita ji ne hame bilkul sahi plan recommend kiya. Mere bete ki education ke liye Jeevan Tarun
+                        le liya — bahut satisfied hoon. Sach mein ek vishwasniy agent hain."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">RV</div>
+                        <div><strong>Ramesh Verma</strong><span>Teacher, Lucknow</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Meri wife ki sudden bimari mein Sarita ji ne claim process itni jaldi karwa di. Unke guidance se
+                        hum crisis se nikal sake. Really thankful to her and LIC."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background:linear-gradient(135deg,#10b981,#06b6d4)">AS</div>
+                        <div><strong>Anil Sharma</strong><span>Business Owner, Kanpur</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"I was completely confused about insurance until Sarita Pandey explained everything so clearly.
+                        She helped me pick the right term plan + pension combo. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background:linear-gradient(135deg,#8b5cf6,#ec4899)">PG</div>
+                        <div><strong>Priya Gupta</strong><span>IT Professional, Noida</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Retirement ke baad aaj mujhe Jeevan Shanti se har mahine income aa rahi hai. Sarita ji ne 2018
+                        mein yeh plan recommend kiya tha — aaj bahut sukoon hai."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background:linear-gradient(135deg,#f59e0b,#84cc16)">SK</div>
+                        <div><strong>Sunita Kesharwani</strong><span>Retired Govt. Employee, Varanasi</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="testi-btn" id="testi-prev" aria-label="Previous">‹</button>
+                <div class="testi-dots" id="testi-dots"></div>
+                <button class="testi-btn" id="testi-next" aria-label="Next">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ WHY CHOOSE LIC / ME ═══ -->
+    <section class="section why-lic">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Why Trust Us</p>
+                <h2 class="section-title">Why Choose <span class="gradient-text">LIC & Me?</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon">🏛️</div>
+                    <h4>Government Backed</h4>
+                    <p>LIC is India's most trusted insurer backed by the Government — your money is completely safe and
+                        guaranteed.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">💯</div>
+                    <h4>Highest Claim Settlement</h4>
+                    <p>LIC boasts a 98%+ claim settlement ratio — one of the highest in the industry, ensuring you're
+                        never left without support.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">🤝</div>
+                    <h4>Personal Guidance</h4>
+                    <p>I personally assist with plan selection, premium payment, nominations, and claim processing — end
+                        to end.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon">📱</div>
+                    <h4>Always Available</h4>
+                    <p>Need help after hours? I'm always just a call or WhatsApp away. Client convenience is my top
+                        priority.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Let's Connect</p>
+                <h2 class="section-title">Get a <span class="gradient-text">Free Consultation</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Let me help you choose the <span class="gradient-text">right plan</span></h3>
+                    <p>Whether you're planning for your child's education, securing your family, or building a
+                        retirement corpus — I'll guide you to the best LIC policy. First consultation is always
+                        <strong>FREE</strong>.
+                    </p>
+                    <div class="contact-items">
+                        <a href="https://wa.me/917007629909" target="_blank" rel="noopener"
+                            class="contact-item" id="contact-phone">
+                            <div class="contact-item-icon">📱</div>
+                            <div><strong>WhatsApp</strong><span>+91 70076 29909</span></div>
+                        </a>
+                        <a href="tel:+917007629909" class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div><strong>Call</strong><span>+91 70076 29909</span></div>
+                        </a>
+                        <a href="mailto:saritapandey7007629@gmail.com" class="contact-item" id="contact-email">
+                            <div class="contact-item-icon">📧</div>
+                            <div><strong>Email</strong><span>saritapandey7007629@gmail.com</span></div>
+                        </a>
+                        <div class="contact-item" id="contact-office">
+                            <div class="contact-item-icon">🏢</div>
+                            <div><strong>LIC Branch Office</strong><span>Sathiaon, Azamgarh, Uttar Pradesh 276406</span>
+                            </div>
+                        </div>
+                        <div class="contact-item" id="contact-hours">
+                            <div class="contact-item-icon">🕐</div>
+                            <div><strong>Office Hours</strong><span>Mon–Sat: 9:30 AM – 6:00 PM</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="enquiry-card reveal-right">
+                    <div class="enquiry-header">
+                        <span class="enquiry-icon">📋</span>
+                        <div>
+                            <h4>Send Enquiry</h4>
+                            <p>Fill the form below — Sarita ji will respond within 24 hrs</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="enquiry-form">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <input type="text" id="enquiry-name" name="name" placeholder=" " autocomplete="name"
+                                    required>
+                                <label for="enquiry-name">Full Name *</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="enquiry-phone" name="phone" placeholder=" " autocomplete="tel"
+                                    inputmode="numeric" pattern="[0-9+\s-]{10,15}" required>
+                                <label for="enquiry-phone">Phone Number *</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="enquiry-email" name="email" placeholder=" " autocomplete="email">
+                            <label for="enquiry-email">Email Address</label>
+                        </div>
+                        <div class="input-group">
+                            <select id="enquiry-plan" name="plan" required>
+                                <option value="" selected disabled>Select a plan</option>
+                                <option>Life Insurance</option>
+                                <option>Health Insurance</option>
+                                <option>Child Education Plan</option>
+                                <option>Pension / Retirement Plan</option>
+                                <option>Investment / Savings Plan</option>
+                                <option>Other</option>
+                            </select>
+                            <label class="select-label" for="enquiry-plan">Interested In *</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="enquiry-message" name="message" rows="4" placeholder=" "></textarea>
+                            <label for="enquiry-message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Enquiry on WhatsApp</button>
+                        <div class="form-success" id="form-success" role="status" aria-live="polite">
+                            WhatsApp is opening with your enquiry. Please tap Send to finish.
+                        </div>
+                    </form>
+                    <div class="enquiry-note">
+                        🔒 Your information is secure and will only be used to contact you about LIC plans.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-col">
+                    <p class="footer-brand">Sarita Pandey<span class="dot">.</span></p>
+                    <p class="footer-tagline">Your Trusted LIC Insurance Partner</p>
+                    <p class="footer-agent-code">Agent Code: LIC-2014-SP007 &nbsp;|&nbsp; IRDAI Reg. No. XXXXXXXX</p>
+                    <!-- Social Media Links -->
+                    <div class="footer-social-row">
+                        <a href="https://wa.me/917007629909" target="_blank" rel="noopener" class="fsoc-btn whatsapp"
+                            id="footer-whatsapp" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            WhatsApp
+                        </a>
+                        <a href="mailto:saritapandey7007629@gmail.com" class="fsoc-btn email" id="footer-email"
+                            aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                            Email
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="fsoc-btn facebook"
+                            id="footer-facebook" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                            Facebook
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="fsoc-btn instagram"
+                            id="footer-instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                            Instagram
+                        </a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" class="fsoc-btn youtube"
+                            id="footer-youtube" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z" />
+                            </svg>
+                            YouTube
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Quick Links</h5>
+                    <a href="#about">About Me</a>
+                    <a href="#services">Services</a>
+                    <a href="#plans">Popular Plans</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links-col">
+                    <h5>LIC Plans</h5>
+                    <a href="#contact">LIC Tech Term</a>
+                    <a href="#contact">Jeevan Anand</a>
+                    <a href="#contact">Jeevan Shanti</a>
+                    <a href="#contact">Jeevan Tarun</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Sarita Pandey — LIC of India. All rights reserved.</p>
+                <p class="footer-disclaimer">*LIC of India is regulated by IRDAI. Insurance is subject to terms &
+                    conditions of the policy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══ AI CHATBOT WIDGET ═══ -->
+    <div id="chatbot-launcher" aria-label="Open AI Assistant">
+        <div class="chat-launcher-pulse"></div>
+        <span class="chat-launcher-icon">💬</span>
+        <span class="chat-launcher-label">Ask Me</span>
+    </div>
+
+    <div id="chatbot-window" role="dialog" aria-label="LIC Assistant Chatbot">
+        <div class="chat-header">
+            <div class="chat-agent-info">
+                <div class="chat-avatar">🤖</div>
+                <div>
+                    <strong>LIC Assistant</strong>
+                    <span class="chat-online"><span class="chat-online-dot"></span> Online — Ask me anything!</span>
+                </div>
+            </div>
+            <button id="chatbot-close" aria-label="Close chat">✕</button>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="chat-msg bot">
+                <div class="chat-bubble">
+                    🙏 Namaste! I'm LIC Assistant for <strong>Sarita Pandey</strong>.<br /><br />
+                    How can I help you today?
+                </div>
+                <div class="chat-quick-replies" id="quick-replies">
+                    <button class="qr-btn" data-q="about sarita">About Sarita</button>
+                    <button class="qr-btn" data-q="life insurance">🛡️ Life Insurance</button>
+                    <button class="qr-btn" data-q="health insurance">❤️ Health Plans</button>
+                    <button class="qr-btn" data-q="pension plan">🏖️ Pension</button>
+                    <button class="qr-btn" data-q="child plan">👶 Child Plans</button>
+                    <button class="qr-btn" data-q="contact">📞 Contact</button>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-row">
+            <input type="text" id="chat-input" placeholder="Type your question…" autocomplete="off" />
+            <button id="chat-send" aria-label="Send">➤</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
